@@ -1,6 +1,11 @@
 @import '~office-ui-fabric-react/dist/sass/References.scss';
 
 .visioOnlineReactFunctionWebPart {
+    .iframeHost { 
+    height: 600px;
+    width:100%;
+    }
+    
   .container {
     max-width: 700px;
     margin: 0px auto;
