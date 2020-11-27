@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "visio-online-react-function-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/visioOnlineReactFunctionWebPart/VisioOnlineReactFunctionWebPartWebPart.js",
+          "manifest": "./src/webparts/visioOnlineReactFunctionWebPart/VisioOnlineReactFunctionWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VisioOnlineReactFunctionWebPartWebPartStrings": "lib/webparts/visioOnlineReactFunctionWebPart/loc/{locale}.js"
+  }
+}
