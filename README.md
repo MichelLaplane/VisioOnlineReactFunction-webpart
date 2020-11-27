@@ -1,4 +1,14 @@
-# visio-online-react-function-webpart
+## visio-online-react-function-webpart
+This project implement a SPFx Function based WebPart using VisioOnline JS API.
+It gives you some guidelines to play with Visio Online (Visio for the web) inside a SharePoint Page.
+
+What is of interest is the Function Based React component used in this WebPart, thanks to the
+new features available in React 16.8 version : Hooks.
+It allows you to use state and other React features without writing a class.
+
+You can use it directly for creating a sharePoint Package that you can install on your M365 tenant.
+
+You can also run it in Visual studio Code in debug mode using the Online Workbench of your M365 tenant.
 
 ## Summary
 

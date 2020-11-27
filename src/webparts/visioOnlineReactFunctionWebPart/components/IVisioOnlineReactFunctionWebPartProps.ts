@@ -13,4 +13,5 @@ export interface IVisioOnlineReactFunctionWebPartProps {
   overlayWidth:string;
   overlayHeight:string;
   visioService:VisioService;
+  keyPressed:string;
 }

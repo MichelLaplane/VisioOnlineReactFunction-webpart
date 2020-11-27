@@ -14,7 +14,7 @@ import {
 } from '@microsoft/sp-property-pane';
 
 import * as strings from 'VisioOnlineReactFunctionWebPartWebPartStrings';
-import VisioOnlineReactFunctionWebPart from './components/VisioOnlineReactFunctionWebPart';
+import {VisioOnlineReactFunctionWebPart} from './components/VisioOnlineReactFunctionWebPart';
 import { IVisioOnlineReactFunctionWebPartProps } from './components/IVisioOnlineReactFunctionWebPartProps';
 
 import 'officejs';
@@ -65,7 +65,8 @@ export default class VisioOnlineReactFunctionWebPartWebPart extends BaseClientSi
         overlayText: this.properties.overlayText,
         overlayWidth: this.properties.overlayWidth,
         overlayHeight: this.properties.overlayHeight,
-        visioService: this._visioService
+        visioService: this._visioService,
+        keyPressed:''
       }
     );
     ReactDom.render(element, this.domElement);
